@@ -1,0 +1,10 @@
+# Standards: 1.2
+---
+- name: Install application deb
+  apt:
+    deb: "{{ ferdium_package }}"
+    state: present
+  tags:
+    - ferdium
+
+...

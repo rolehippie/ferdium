@@ -1,0 +1,13 @@
+# Standards: 1.2
+---
+# @var ferdium_version:description: Version for the package
+# renovate: datasource=github-releases depName=ferdium/ferdium-app
+ferdium_version: 6.2.6
+
+# @var ferdium_arch:description: Architecture for the package
+ferdium_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
+# @var ferdium_package:description: Download URL for the package to install
+ferdium_package: "https://github.com/ferdium/ferdium-app/releases/download/v{{ ferdium_version }}/Ferdium-linux-{{ ferdium_version }}-{{ ferdium_arch }}.deb"
+
+...
