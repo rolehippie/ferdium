@@ -62,7 +62,7 @@ Version for the package
 #### Default value
 
 ```YAML
-ferdium_version: 6.3.0
+ferdium_version: 6.4.0
 ```
 
 ## Discovered Tags
