@@ -2,7 +2,7 @@
 ---
 # @var ferdium_version:description: Version for the package
 # renovate: datasource=github-releases depName=ferdium/ferdium-app
-ferdium_version: 6.3.0
+ferdium_version: 6.4.0
 
 # @var ferdium_arch:description: Architecture for the package
 ferdium_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
