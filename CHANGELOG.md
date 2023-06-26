@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.2.0](https://github.com/rolehippie/ferdium/compare/v1.1.0...v1.2.0) (2023-06-26)
+
+
+### Features
+
+* **deps:** update dependency ferdium/ferdium-app to v6.4.0 ([813b90d](https://github.com/rolehippie/ferdium/commit/813b90d9ba69f4beaf6bebcf0c7ef1950c7ad317))
+
 ## [1.1.0](https://github.com/rolehippie/ferdium/compare/v1.0.1...v1.1.0) (2023-06-05)
 
 
